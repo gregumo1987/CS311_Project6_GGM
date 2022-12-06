@@ -1,0 +1,157 @@
+body {
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: x-small;
+}
+
+.header, .footer {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #742b33;
+    color: white;
+    align-items: center;
+}
+
+.header {
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#head-p {
+    font-size:small;
+}
+
+img {
+    height: 50px;
+}
+
+.footer {
+    padding-left: 7px;
+}
+
+#assets {
+    margin-left: 7px;
+    padding-left: 7px;
+}
+
+#liabilities {
+    padding-left: 7px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    background-color: #e3b343;
+}
+
+.assliab {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: smaller;
+}
+
+#curass {
+    padding-left: 14px;
+}
+
+#curliab {
+    padding-left: 7px;
+}
+
+.row-pad {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#tempinvest {
+    align-self: bottom;
+}
+
+#totcurass, #totcurliab, #totinvpropequip {
+    text-decoration: overline underline;
+    justify-self: end;
+    padding-top: 12px;
+}
+
+#totlngtrmliab, #totintangibles {
+    text-decoration: overline underline;
+}
+
+.row-justify {
+    justify-self: end;
+}
+
+#invpropequip {
+    padding-left: 14px;
+}
+
+#lngtrmliab {
+    padding-left: 7px;
+}
+
+#addinvpropequip {
+    padding-bottom: 10px;
+}
+
+#intangibles {
+    padding-left: 14px;
+}
+
+#totalposition {
+    font-size: large;
+    padding-left: 7px;
+    padding-bottom: 10px;
+}
+
+#addintangibles, .button-justify {
+    justify-self: center;
+}
+
+#totalassets {
+    padding-left: 7px;
+}
+
+#totalliabilities {
+    padding-left: 7px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+
+#position {
+    padding-left: 7px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+}
+
+input[type=text] {
+    text-align: right;
+    font-size: x-small;
+}
+
+button {
+    font-size: x-small;
+}
+
+#acctpayable, #notespayable, #intpayable, #wagespayable, #accruedexpenses {
+    padding-right: 15px;
+}
+
+#totcurliab, #bondspayable, #ntspayable, #totlngtrmliab {
+    padding-right: 15px;
+}
+
+#accruedexpenses {
+    margin: 0px;
+}
+
+#totalassets, #totalliabilities, #position {
+    font-size: small;
+}
+
+#calcposition {
+    justify-self: start;
+    padding-left: 7px;
+}
